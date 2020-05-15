@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'egyptian_nights';
+    src: url('fonts/egyptian_nights-webfont.ttf') format('truetype'),
+         url('fonts/egyptian_nights-webfont.woff2') format('woff2'),
+         url('fonts/egyptian_nights-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    background-image: url('img/bg-reg.jpg');
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* .form-reg
+{
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(50px);
+} */
+.card {
+    background-color: rgba(255, 255, 255, .0)!important;
+    backdrop-filter: blur(7px);
+}
+.card-header {
+    background-color: rgba(255, 255, 255, .0)!important;
+    backdrop-filter: blur(7px);
+}
+.card-footer {
+    background-color: rgba(255, 255, 255, .0)!important;
+    backdrop-filter: blur(7px);
+}
+.card-heading {
+    text-align: center; 
+    font-family: egyptian_nights;
+    font-size: 48px;
+    color:#ffd600 ;
+}
+form {
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.btn-yellow {
+    background-color:#ffd600 ;
+}
+.packs {
+    margin-top: 5rem;
+}
+.card-pack {
+    border: none;
+    border-radius: 2rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(12, 12, 12, 0.4);
+}
+.btn-pack {
+    opacity: 0.3;
+}
+nav
+{
+    font-size: 20px!important;
+}
+.nav-link:hover
+{
+  transform: scale(1.1);
+  background-color: #ff3e33;
+}
+@media (min-width: 992px) {
+    .card-pack:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.8);
+    }
+    .btn-pack {
+        opacity: 1;
+    }
+}
+.card-image-top {
+    border: none;
+    border-radius: 2rem;
+    width: 100%;
+    height: 16vw;
+    object-fit: cover;
+}
+/* Display : NONE properties */
+#kiitField {
+    display: none;
+}
+#otherField {
+    display: none;
+}
